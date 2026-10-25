@@ -1,0 +1,11 @@
+dist/
+build/
+outputs/
+tests/bin/
+tests/*.exe
+*.user
+*.pdb
+*.log
+*.tmp
+.env
+.env.*

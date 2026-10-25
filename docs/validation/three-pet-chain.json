@@ -1,0 +1,188 @@
+{
+  "sequence": "shaolan:0,sun:1,fengge:2,sun:3",
+  "ok": true,
+  "ended": 4,
+  "events": [
+    {
+      "event": "start",
+      "role": "shaolan",
+      "root": "shaolan",
+      "hop": 0,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 7,
+      "reason": null,
+      "utc": "2026-10-25T12:43:50.5591655Z"
+    },
+    {
+      "event": "open",
+      "role": "shaolan",
+      "root": "shaolan",
+      "hop": 0,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 7,
+      "reason": "1.190",
+      "utc": "2026-10-25T12:43:51.1288495Z"
+    },
+    {
+      "event": "finish",
+      "role": "shaolan",
+      "root": "shaolan",
+      "hop": 0,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 7,
+      "reason": "ended",
+      "utc": "2026-10-25T12:43:52.2490049Z"
+    },
+    {
+      "event": "send",
+      "role": "shaolan",
+      "root": "shaolan",
+      "hop": 0,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 7,
+      "reason": "sun",
+      "utc": "2026-10-25T12:43:52.2633952Z"
+    },
+    {
+      "event": "receive",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 0,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": null,
+      "reason": null,
+      "utc": "2026-10-25T12:43:52.2660607Z"
+    },
+    {
+      "event": "start",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 1,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 11,
+      "reason": null,
+      "utc": "2026-10-25T12:43:52.2838847Z"
+    },
+    {
+      "event": "open",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 1,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 11,
+      "reason": "0.811",
+      "utc": "2026-10-25T12:43:52.6299604Z"
+    },
+    {
+      "event": "finish",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 1,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 11,
+      "reason": "ended",
+      "utc": "2026-10-25T12:43:53.4343525Z"
+    },
+    {
+      "event": "send",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 1,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 11,
+      "reason": "fengge",
+      "utc": "2026-10-25T12:43:53.4489885Z"
+    },
+    {
+      "event": "receive",
+      "role": "fengge",
+      "root": "shaolan",
+      "hop": 1,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": null,
+      "reason": null,
+      "utc": "2026-10-25T12:43:53.4510241Z"
+    },
+    {
+      "event": "start",
+      "role": "fengge",
+      "root": "shaolan",
+      "hop": 2,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 4,
+      "reason": null,
+      "utc": "2026-10-25T12:43:53.4698716Z"
+    },
+    {
+      "event": "open",
+      "role": "fengge",
+      "root": "shaolan",
+      "hop": 2,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 4,
+      "reason": "1.090",
+      "utc": "2026-10-25T12:43:53.8266837Z"
+    },
+    {
+      "event": "finish",
+      "role": "fengge",
+      "root": "shaolan",
+      "hop": 2,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 4,
+      "reason": "ended",
+      "utc": "2026-10-25T12:43:54.8543365Z"
+    },
+    {
+      "event": "send",
+      "role": "fengge",
+      "root": "shaolan",
+      "hop": 2,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 4,
+      "reason": "sun",
+      "utc": "2026-10-25T12:43:54.8585759Z"
+    },
+    {
+      "event": "start",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 3,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 13,
+      "reason": null,
+      "utc": "2026-10-25T12:43:54.8585759Z"
+    },
+    {
+      "event": "receive",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 2,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": null,
+      "reason": null,
+      "utc": "2026-10-25T12:43:54.8585759Z"
+    },
+    {
+      "event": "open",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 3,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 13,
+      "reason": "0.597",
+      "utc": "2026-10-25T12:43:55.1070259Z"
+    },
+    {
+      "event": "finish",
+      "role": "sun",
+      "root": "shaolan",
+      "hop": 3,
+      "chainId": "464fa19b-a198-4148-895d-252388ed0a20",
+      "clipId": 13,
+      "reason": "ended",
+      "utc": "2026-10-25T12:43:55.6318597Z"
+    }
+  ],
+  "started": 4
+}

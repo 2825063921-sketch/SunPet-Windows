@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "testedAtUtc": "2026-10-25T12:47:30.2193339Z",
+  "windows": "Windows 11, build 26300, x64",
+  "binarySha256": "4c3b114c9ef2d19951be66fb6ba672b48d395fe4e56518ef9b0b2c71d98e4c56",
+  "nativeClips": 28,
+  "coreAssertions": 25551,
+  "sourceHashCheck": true,
+  "realClickPlayback": true,
+  "threePetChain": "shaolan:0,sun:1,fengge:2,sun:3",
+  "fourthPhraseStopped": true,
+  "fenggeClickChain": "fengge:0,sun:1",
+  "sunClickChain": "sun:0",
+  "contextMenuVolumeSaved": true,
+  "volumePersistedAfterRestart": true,
+  "shortDragMovedAndSaved": true,
+  "dragDidNotPlay": true,
+  "singleInstanceDialogVerified": true,
+  "independentCodeReview": "passed",
+  "limitations": [
+    "Desktop interactions exercised with the shared UI primarily on Shaolan; all three decoded and played their complete clip sets.",
+    "No physical-speaker listening assertion: exhaustive audio test ran at volume zero.",
+    "Windows 10 and other hardware not directly tested."
+  ],
+  "sourceFiles": [
+    {
+      "sha256": "6329743aa9512f9d3cc11d319199a205d7e6da6699b28b04e8edf3935d230bf1",
+      "name": "Bridge.cs"
+    },
+    {
+      "sha256": "63f52a39133fe945b16a82938563edd2649150d7f9fb5d4f9cca6f527e2385ca",
+      "name": "Core.cs"
+    },
+    {
+      "sha256": "4a71d1569ce4e7b4b712ff7ae574a64ae7e85cc0114c3c392337203d40dd80e2",
+      "name": "NativeTests.cs"
+    },
+    {
+      "sha256": "a864d2925d938a9c067c2b3628dfd828efb360fdf0de23c267f0331a818678f1",
+      "name": "PetWindow.cs"
+    },
+    {
+      "sha256": "c0235984b70da5410841c37cc678b7bbe66da347116ddecad7eb468b85e4ef4a",
+      "name": "Program.cs"
+    },
+    {
+      "sha256": "b8912f8cac1fa665abed5853ccd023e41609f292146791f8a108f0c974435c4a",
+      "name": "VoicePlayer.cs"
+    }
+  ]
+}
