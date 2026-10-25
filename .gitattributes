@@ -1,0 +1,4 @@
+# Preserve exact asset bytes so SHA256 checks survive Git checkouts.
+Assets/** -text
+# Original Windows metadata uses CRLF; retain the usual whitespace checks.
+Assets/clips.json whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
